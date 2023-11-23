@@ -8,7 +8,7 @@
 
 const int PasswordLength = 20;
 
-void ClearPassword(char password[20], int numberOfOverwrites)
+void ClearPassword(char password[PasswordLength], int numberOfOverwrites)
 {
     while (numberOfOverwrites--)
     {
@@ -19,7 +19,7 @@ void ClearPassword(char password[20], int numberOfOverwrites)
     }
 }
 
-void PrintPassword(char password[20])
+void PrintPassword(char password[PasswordLength])
 {
     for (int i = 0; i < PasswordLength; i++)
     {
